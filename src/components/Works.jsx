@@ -8,6 +8,8 @@ import { projects } from "../constant";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import { AiFillEye } from 'react-icons/ai';
+
 const ProjectCard = ({index, name, description, tags, image, live_demo, source_code_link}) => {
   return (
     <motion.div
