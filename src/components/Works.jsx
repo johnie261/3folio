@@ -32,7 +32,8 @@ const ProjectCard = ({index, name, description, tags, image, live_demo, source_c
               onClick={()=> window.open(live_demo, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img src={eye} alt="live demo" className="w-1/2 h-1/2 object-contain bg-white rounded-full" />
+              {/*<img src={eye} alt="live demo" className="w-1/2 h-1/2 object-contain bg-white rounded-full" /> */}
+              <AiFillEye className='w-1/2 h-1/2'/>
             </div>
           </div>
         </div>
