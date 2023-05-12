@@ -19,9 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    bookstore,
+    shopfinity,
+    math,
     threejs,
   } from "../assets";
   
@@ -42,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
@@ -198,28 +198,29 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "ShopFinity",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An e-commerce website incorporating features such as product listings, shopping cart functionality, secure payment processing, and order management",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "context API",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "styled-components",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: shopfinity,
+      live_demo: "https://shopfinity.netlify.app/",
+      source_code_link: "https://github.com/johnie261/shopFinity",
     },
     {
-      name: "Job IT",
+      name: "Math Magician",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -236,20 +237,21 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: math,
+      live_demo: "https://mathmagicianrct.netlify.app/",
+      source_code_link: "https://github.com/johnie261/Math-magician",
     },
     {
-      name: "Trip Guide",
+      name: "Book Store",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A book store website displays a list of books, add new book and remove selected book.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
@@ -257,9 +259,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: bookstore,
+      live_demo: "https://booky-store.netlify.app/",
+      source_code_link: "https://github.com/johnie261/Book-store/",
     },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
+  
