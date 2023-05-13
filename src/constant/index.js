@@ -23,6 +23,8 @@ import {
     bookstore,
     shopfinity,
     math,
+    todos,
+    event,
     threejs,
   } from "../assets";
   
@@ -55,7 +57,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UX",
       icon: creator,
     },
   ];
@@ -262,6 +264,72 @@ import {
       ],
       image: bookstore,
       live_demo: "https://booky-store.netlify.app/",
+      source_code_link: "https://github.com/johnie261/Book-store/",
+    },
+    {
+      name: "Book Store",
+      description:
+        "This application lets us add to-dos, edit, and delete items. It also persists to-dos in the browser's local storage for a subsequent visit.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: todos,
+      live_demo: "https://reactjs-todo-pp.netlify.app/",
+      source_code_link: "https://github.com/johnie261/Todo-React",
+    },
+  /*  {
+      name: "Book Store",
+      description:
+        "A book store website displays a list of books, add new book and remove selected book.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bookstore,
+      live_demo: "https://booky-store.netlify.app/",
+      source_code_link: "https://github.com/johnie261/Book-store/",
+    }, */
+    {
+      name: "Concert Web",
+      description:
+        "An online website which displays information and details about a musical concert.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: event,
+      live_demo: "https://johnie261.github.io/Concert-Web/",
       source_code_link: "https://github.com/johnie261/Book-store/",
     },
   ];

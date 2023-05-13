@@ -31,6 +31,8 @@ import tesla from "./company/tesla.png";
 import shopfinity from "./shopfinity.png";
 import math from "./math.png";
 import bookstore from "./tripguide.png";
+import todos from "./todos.png";
+import event from "./event.png";
 
 export {
   logo,
@@ -62,5 +64,7 @@ export {
   tesla,
   bookstore,
   shopfinity,
-  math
+  math,
+  todos,
+  event
 };
